@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./view/styleClassSumir.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div id="templateCadastro">
+    <form>
+      <label for="User">User:</label>
+      <input type="text" id="user" name="user">
+  
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" name="telefone">
+  
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+  
+      <label for="senha">Senha:</label>
+      <input type="text" id="senha" name="senha">
+      
+      <button type="button" id="enviar">Enviar</button>
+    </form>
+
+    <a href="#" id="irTelaLogin">login</a>
+  </div>
+
+  <!---->
+
+  <div id="templateLogin" class="sumir">
+    <form>
+      <label for="EmailCadastrado">Email:</label>
+      <input type="text" id="EmailCadastrado" name="EmailCadastrado">
+
+      <label for="SenhaCadastrado">Senha:</label>
+      <input type="text" id="SenhaCadastrado" name="SenhaCadastrado">
+
+      <button type="button" id="buttonEntrar">Entrar</button>
+      
+      <a href="#" id="irTelaCadastro">Cadastre-se</a>
+    </form>
+  </div>
+
+  <!---->
+
+  <div id="templateFormCreatSite" class="sumir">
+    <form>
+      <label for="nomeSite">Nome Site:</label>
+      <input type="text" id="nomeSite" name="nomeSite">
+
+      <label for="telefoneSite">Telefone Site:</label>
+      <input type="text" id="telefoneSite" name="telefoneSite">
+
+      <label for="sobreSite">Sobre Site</label>
+      <input type="text" id="sobreSite" name="sobreSite">
+
+      <label for="enderecoSite">Endereço Site:</label>
+      <input type="text" id="enderecoSite" name="enderecoSite">
+
+      <button type="button" id="buttonCreatSite">CriarSite</button>
+    </form>
+  </div>
+  
+  <div id="localTemplate">
+
+  </div>
+
+  <script type="module" src="./model/userController.js"></script>
+  <script type="module" src="./view/telaInverter.js"></script>
+  <script type="module" src="./model/loginUser.js"></script>
+  <script type="module" src="./model/creatTemplate.js"></script>
+  
+</body>
+</html>
